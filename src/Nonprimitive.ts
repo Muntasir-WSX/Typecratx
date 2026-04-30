@@ -24,10 +24,14 @@ let destination : [string, string, number] = ["Dhaka", "Chittagong", 200]
 const user : {
     firstName: string,
     lastName: string,
+    isMarried: boolean
 
 } = {
     firstName: "Muntasir",
-    lastName: "Mahmud"
+    lastName: "Mahmud",
+    isMarried: false
 }
+
+
   
 
