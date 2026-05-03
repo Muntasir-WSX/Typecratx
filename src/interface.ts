@@ -42,6 +42,19 @@ const isAdmin: IsAdmin = false;
 //function type
 
 
+
 type Add = (num1: number,num2: number) => number;
 
+interface IAdd{
+ ( num1: number,num2: number): number;
+}
+
 const add: Add = (num1, num2) => num1 + num2;
+
+type friends = string [ ];
+const friends: string [ ] = ["Alice", "Bob", "Charlie"];
+
+interface Ifriends {
+    [index: number]: string;
+}
+
