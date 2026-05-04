@@ -9,7 +9,11 @@ interface Developer <T> {
 
     smartwatch: T ;
 
+    
+
 }
+
+
 
 
 const poorDeveloper : Developer<{
@@ -29,6 +33,26 @@ const poorDeveloper : Developer<{
         heartRate: '80 bpm',
         stopwatch: '00:30:00',
         Steps: 5000,
+    }
+}
+const RichDeveloper : Developer<{
+   
+    callSupprt: boolean;
+    AiFeatures: string[];
+    Steps: number;
+    }> = {
+    name: " Mr. Rich",
+    salary: 120,
+    device: {
+        brand: 'Iphone 17',
+        model: 'Pro Max',
+        releaseYear: '2026'
+    },
+
+    smartwatch: {
+        Steps: 10000,
+        callSupprt: true,
+        AiFeatures: ['Voice Assistant', 'Health Monitoring']
     }
 }
 
