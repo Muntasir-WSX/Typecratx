@@ -25,3 +25,22 @@ let employee1 = new employee();
 console.log(person1.getSleep());
 console.log(student1.getSleep());
 console.log(employee1.getSleep());
+
+
+ const person2: person = new student();
+ console.log(person2.getSleep());
+
+ for (let i = 0; i < 3; i++) {
+    let person3: person;
+    if (i === 0) {
+        person3 = new person();
+    }
+    else if (i === 1) {
+        person3 = new student();
+    }
+    else {
+        person3 = new employee();
+    }
+    console.log(person3.getSleep());
+ }
+ 
