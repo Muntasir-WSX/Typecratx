@@ -44,3 +44,11 @@ console.log(employee1.getSleep());
     console.log(person3.getSleep());
  }
  
+
+ const people: person[] = [new person(), new student(), new employee()];
+ for (const person of people) {
+    console.log(person.getSleep());
+ }
+
+ let person4: person = new student();
+ console.log(person4.getSleep());
