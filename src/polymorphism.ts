@@ -52,3 +52,17 @@ console.log(employee1.getSleep());
 
  let person4: person = new student();
  console.log(person4.getSleep());
+
+
+
+ const getSleepHours = (person: person) => {
+    console.log(person.getSleep());
+ }
+
+    getSleepHours(new person());
+    getSleepHours(new student());
+    getSleepHours(new employee());
+
+    console.log(getSleepHours(new person()));
+    console.log(getSleepHours(new student()));
+    console.log(getSleepHours(new employee()));
