@@ -66,3 +66,27 @@ console.log(employee1.getSleep());
     console.log(getSleepHours(new person()));
     console.log(getSleepHours(new student()));
     console.log(getSleepHours(new employee()));
+
+
+    // polymorphism with interfaces
+
+    interface shape {
+        getArea(): number;
+    }
+
+    const circle: shape = {
+        radius: 5,
+        getArea() {
+            return Math.PI * this.radius * this.radius;
+        }
+    }
+
+    const rectangle: shape = {
+        width: 10,
+        height: 5,
+        getArea() {
+            return this.width * this.height;
+        }
+    }
+
+    
