@@ -89,4 +89,10 @@ console.log(employee1.getSleep());
         }
     }
 
-   
+   // const triangle: shape = {
+    //     base: 10,
+    //     height: 5,
+    //     getArea() {
+    //         return 0.5 * this.base * this.height;
+    //     }
+    // }
