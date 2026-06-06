@@ -89,8 +89,5 @@ console.log(employee1.getSleep());
         }
     }
 
-  // let shapes: shape[] = [circle, rectangle];
-   // for (const shape of shapes) {
-   //     console.log(shape.getArea());
-   // }
+
    
