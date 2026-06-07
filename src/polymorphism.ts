@@ -89,5 +89,9 @@ console.log(employee1.getSleep());
         }
     }
 
-
+// cinst area: shape = {
+//     getArea() {
+//         return 0;
+//     }
+// }
    
