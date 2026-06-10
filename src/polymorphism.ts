@@ -94,4 +94,10 @@ console.log(employee1.getSleep());
     console.log(rectangle.getArea());
         console.log(getArea(circle));
         console.log(getArea(rectangle));
+
+
+        // polymorphism with abstract classes
+        abstract class animal {
+            abstract makeSound(): void;
+        }
    
