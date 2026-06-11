@@ -100,4 +100,18 @@ console.log(employee1.getSleep());
         abstract class animal {
             abstract makeSound(): void;
         }
+
+
+        //beekepre class
+        class beekeeper extends animal {
+            makeSound() {
+                console.log("Buzz");
+            }
+        }
+        // dog class
+        class dog extends animal {
+            makeSound() {
+                console.log("Woof");
+            }
+        }
    
