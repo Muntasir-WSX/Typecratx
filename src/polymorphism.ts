@@ -114,4 +114,30 @@ console.log(employee1.getSleep());
                 console.log("Woof");
             }
         }
+
+
+        create table 
+employees (
+  employee_id Serial Primary key,
+  employee_name varchar (50),
+  department_id Int references departments (department_id),
+  hire_date DATE
+);
+
+-- creating the departments table
+create table 
+departments (
+  department_id Serial Primary key,
+  department_name Varchar (50)
+)
+
+
+
+
+
+
+
+
+
+
    
